@@ -1,7 +1,7 @@
 # Marine MVP: Marina Tariff & Occupancy Calculator
 Este repositorio contiene un MVP (Minimum Viable Product) para la gestión de precios de amarre en puertos deportivos y la consulta de ocupación (mock). Incluye:
 
-![marine.png](Assets/marine.png)
+![marine.jpg](Assets/marine.jpg)
 - Backend (FastAPI + MongoDB)
 - Frontend (Streamlit)
 - Scrapers (BeautifulSoup) para extraer tarifas de distintas webs (actualmente Puerto Benalmádena y Puerto de Marbella).
