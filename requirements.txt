@@ -1,0 +1,21 @@
+# -----------------------------
+# For scraping and FastAPI
+# -----------------------------
+fastapi>=0.95.0
+uvicorn>=0.22.0
+requests>=2.28.1
+beautifulsoup4>=4.12.0
+pymongo>=4.3.3
+python-dotenv>=0.21.0
+Faker>=15.3.4
+APScheduler>=3.9.1
+requests>=2.26.0
+urllib3>=1.26.0
+
+# Stubs
+types-requests
+types-urllib3
+# -----------------------------
+# For Streamlit
+# -----------------------------
+streamlit>=1.20.0

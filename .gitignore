@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# PyCharm
+.idea/
+*.iml
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Coverage reports
+htmlcov/
+*.cover
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# Jupyter Notebook checkpoints (por si usas Jupyter)
+.ipynb_checkpoints
+
+# Streamlit cache
+frontend/.streamlit/
+frontend/__pycache__/
+
+# MongoDB dump files (si generas backups)
+dump/
+
+# Scrapy logs and cache (si usas Scrapy para scraping)
+.scrapy/
+
+# FastAPI/Uvicorn logs
+backend/*.log
+backend/__pycache__/
+
+# APScheduler jobs (si se generan archivos temporales)
+backend/*.scheduler
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
