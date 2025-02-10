@@ -24,6 +24,7 @@ Este repositorio contiene un MVP (Minimum Viable Product) para la gestión de pr
 
 marine-mvp/
 ├── .env                          # Variables de entorno (ej. MONGO_URI)
+
 ├── docker-compose.yml            # Orquestación Docker (Mongo, backend, frontend)
 ├── requirements.txt              # Dependencias Python (si ejecutas local)
 ├── scraper/
