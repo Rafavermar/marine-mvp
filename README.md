@@ -23,23 +23,39 @@ Este repositorio contiene un MVP (Minimum Viable Product) para la gestión de pr
 ## Estructura del Proyecto
 
 marine-mvp/
+
 ├── .env                          # Variables de entorno (ej. MONGO_URI)
 
 ├── docker-compose.yml            # Orquestación Docker (Mongo, backend, frontend)
+
 ├── requirements.txt              # Dependencias Python (si ejecutas local)
+
 ├── scraper/
+
 │   ├── benalmadena_scraper.py    # Lógica de scraping para Puerto Benalmádena
+
 │   ├── marbella_scraper.py       # Lógica de scraping para Puerto Marbella
+
 │   ├── base_scraper.py           # (opcional) Clase base si la hubiera
+
 │   └── run_scrapers.py           # Punto de entrada para ejecutar todos los scrapers
+
 ├── backend/
+
 │   ├── main.py                   # FastAPI (endpoints: /calculate_price, /check_occupancy, etc.)
+
 │   ├── database.py               # Conexión a MongoDB
+
 │   ├── models.py                 # Modelos Pydantic (PriceQuery, etc.)
+
 │   └── ...
+
 ├── frontend/
+
 │   └── app.py                    # Streamlit (UI Mooring Calculator, Reservations, etc.)
+
 ├── certs/                        # Certificados SSL si los necesitas
+
 └── README.md                     
 
 ## Principales Componentes
